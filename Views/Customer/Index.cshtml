@@ -1,0 +1,31 @@
+﻿@model vidlyy.ViewModels.Customers
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Customers</h1>
+
+@if (Model.customers.Count == 0)
+{
+    <p>There Is No Customers</p>
+}
+
+else
+{
+    <table class="table table-striped table-hover ">
+        <tr>
+            <th>Name</th>
+        </tr>
+        @foreach (var c in Model.customers)
+        {
+            <tr>
+                <td class="btn-link">
+                    <a href="Customer/Info/@c.Id">@c.Name</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+}
+
