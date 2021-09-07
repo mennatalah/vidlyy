@@ -5,6 +5,7 @@
 }
 
 <h1>Movies</h1>
+<a class="btn btn-primary" href="/Movie/New" >Add Movie</a>
 
 @{
     if (!Model.Any())
@@ -22,7 +23,7 @@
             {
                 <tr>
                     <td>
-                        <a href="/Movie/Info/@m.Id">@m.Name</a>
+                        <a href="/Movie/Edit/@m.Id">@m.Name</a>
                     </td>
                     <td>
                         @m.Genre.Name

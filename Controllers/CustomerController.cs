@@ -22,13 +22,19 @@ namespace vidlyy.Controllers
             var customers = _context.Customers.Include(m=>m.MemberShipType).ToList();
             return View(customers);
         }
-
-        public ActionResult New(int? id)
+        public ActionResult Edit(int id)
         {
-            if (id != null)
-            {
+            var customer = _context.Customers.Find(id);
+            if (customer == null) return HttpNotFound();
+            var createCustomerViewModel = new CreatCustomerModelView() { 
+                Customer = customer,
+                MemberShipTypes = _context.MemberShipTypes.ToList()
+            };
 
-            }
+            return View("New", createCustomerViewModel);
+        }
+        public ActionResult New()
+        {
             var memberships = _context.MemberShipTypes.ToList();
             var CustomerViewModel = new CreatCustomerModelView() { MemberShipTypes=memberships };
 
@@ -46,12 +52,21 @@ namespace vidlyy.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(CreatCustomerModelView creatCustomerModelView)
+        public ActionResult Create(Customer customer)
         {
-            if (creatCustomerModelView.Customer == null)
-                return View("New", creatCustomerModelView);
-            
-            _context.Customers.Add(creatCustomerModelView.Customer);
+            if (customer.Id == 0)
+            {
+                _context.Customers.Add(customer);
+
+            }
+            else
+            {
+                var c = _context.Customers.Find(customer.Id);
+                c.Name = customer.Name;
+                c.MemberShipTypeId = customer.MemberShipTypeId;
+                c.IsSubscribedToNewsLetter = customer.IsSubscribedToNewsLetter;
+                c.Bithdate = customer.Bithdate;
+            }          
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
