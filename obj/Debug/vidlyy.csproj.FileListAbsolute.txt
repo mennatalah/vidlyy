@@ -119,3 +119,5 @@ C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.AddBirthDateToCu
 C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.AddPropAtMovie.resources
 C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.AddGenre.resources
 C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.PopulateGenre.resources
+C:\Users\Iway\Desktop\v\obj\Debug\vidlyy.dll
+C:\Users\Iway\Desktop\v\obj\Debug\vidlyy.pdb
