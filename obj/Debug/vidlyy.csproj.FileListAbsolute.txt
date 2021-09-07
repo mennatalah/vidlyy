@@ -106,3 +106,16 @@ C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.csproj.CoreCompileInputs.ca
 C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.csproj.CopyComplete
 C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.dll
 C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.pdb
+C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.IntialMigration.resources
+C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.csproj.GenerateResource.cache
+C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.AddIsSubscribedToNewsLetterToCustomer.resources
+C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.AddMemberShipType.resources
+C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.populateMembershipType.resources
+C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.ApplyAnnotationToCustomerName.resources
+C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.AddMemberTypeNameToMemberType.resources
+C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.PopulateMemberTypeName.resources
+C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.PopulateMemberTypeName1.resources
+C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.AddBirthDateToCustomer.resources
+C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.AddPropAtMovie.resources
+C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.AddGenre.resources
+C:\Users\Iway\Desktop\vidlyy\vidlyy\obj\Debug\vidlyy.Migrations.PopulateGenre.resources

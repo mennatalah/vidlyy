@@ -1,0 +1,17 @@
+﻿@model vidlyy.Models.Movie
+@{
+    ViewBag.Title = "Info";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@Model.Name</h1>
+<ul>
+    <li>Genre : @Model.Genre.Name</li>
+    @if (Model.DataRelase != null)
+    {
+        <li>Date Relase : @Model.DataRelase</li>
+    }
+    <li>Data Added : @Model.DateAdd</li>
+    <li>Number In Stock : @Model.NumberInStock</li>
+</ul>
+
